@@ -78,6 +78,10 @@
             >
               Send
             </button>
+            <button 
+              className="clear-button"
+              onClick={()=>{setChatMessages([])}}
+            >Clear</button>
           </div>
         );
       }
