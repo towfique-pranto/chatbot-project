@@ -1,7 +1,6 @@
  import { useState } from "react";
  import { Chatbot } from "supersimpledev";
  import dayjs from "dayjs";
- import LoadingSpinner from "../assets/loading-spinner.gif";
  import "./ChatInput.css";
 
 
@@ -29,7 +28,7 @@
               id: crypto.randomUUID(),
             },
             {
-              message: <img className="loadingImg" src={LoadingSpinner} />,
+              message: "isLoadingGif",
               sender: "robot",
               id: "loading-message-id",
             },
