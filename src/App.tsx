@@ -6,7 +6,7 @@ import robot from './assets/robot.png'
 import './App.css'
 
 function App() {
-  const [chatMessages, setChatMessages] = useState(JSON.parse(localStorage.getItem('messages')) || []);
+  const [chatMessages, setChatMessages] = useState(JSON.parse(localStorage.getItem('messages') || '[]'));
   const title = `${chatMessages.length} Messages`
   useEffect(() => {
     Chatbot.addResponses({
