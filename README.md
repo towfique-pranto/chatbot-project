@@ -1,6 +1,6 @@
 # Chatbot Project
 
-A modern, responsive chatbot application built with React, TypeScript, and Vite. This project demonstrates real-time interaction, persistent chat history, and intelligent automated responses.
+A modern, responsive chatbot application built with React, TypeScript, and Vite. This project demonstrates real-time interaction, persistent chat history, and basic automated responses.
 
 This is a basic chatbot that can:
 - Toss a coin
