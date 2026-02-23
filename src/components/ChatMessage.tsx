@@ -4,7 +4,7 @@ import UserProfileImage from '../assets/profile-1.jpg'
 import LoadingSpinner from "../assets/loading-spinner.gif";
 import './ChatMessage.css'
 
-type ChatMessageProps = { message: string, sender: string, time: string }
+type ChatMessageProps = { message: string, sender: string, time: number }
 export function ChatMessage({ message, sender, time }: ChatMessageProps) {
 
   return (
